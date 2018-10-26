@@ -38,7 +38,7 @@ bool RightNormalCourse::runNormalCourse(int16_t target_brightness, int16_t black
 
     case RightStatus::CURVE_INSIDE_SHORT:
       lineTracerWalker.speedControl.setPid(2.0, 1.0, 0.12, 150.0);
-      lineTracerWalker.turnControl.setPid(2.0, 0.1, 0.1, target_brightness);
+      lineTracerWalker.turnControl.setPid(1.5, 0.05, 0.12, target_brightness);
       break;
 
     case RightStatus::CURVE_OUTSIDE:
