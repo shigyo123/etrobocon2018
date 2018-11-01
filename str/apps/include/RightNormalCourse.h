@@ -60,11 +60,11 @@ class RightNormalCourse : public NormalCourse {
   const std::int16_t CALIBRATE_DISTANCE_R = 300;
   const std::int16_t FIRST_STRAIGHT_DISTANCE_R = 2500;
   const std::int16_t FIRST_CURVE_DISTANCE_R = 4495;
-  const std::int16_t SECOND_STRAIGHT_DISTANCE_R = 5056;
-  const std::int16_t SECOND_CURVE_DISTANCE_IN_R = 5640;
+  const std::int16_t SECOND_STRAIGHT_DISTANCE_R = 5030;
+  const std::int16_t SECOND_CURVE_DISTANCE_IN_R = 5670;
   const std::int16_t SECOND_CURVE_DISTANCE_OUT_R = 6542;
   const std::int16_t THIRD_STRAIGHT_DISTANCE_R = 7100;
-  const std::int16_t THIRD_CURVE_DISTANCE_R = 8680;
+  const std::int16_t THIRD_CURVE_DISTANCE_R = 8720;
   const std::int16_t FOURTH_STRAIGHT_DISTANCE_R = 11507;
   const std::int16_t FOR_DECREASE_JACKKNIFE_R = 11607;
   //const std::int16_t FOURTH_STRAIGHT_DISTANCE_R = 11607;
